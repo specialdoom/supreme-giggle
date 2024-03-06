@@ -1,0 +1,20 @@
+{
+  "name": "@specialdoom/supreme-giggle",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.3",
+    "@commitlint/config-conventional": "^19.0.3",
+    "@tsconfig/svelte": "^5.0.2",
+    "husky": "^9.0.11",
+    "typescript": "^5.2.2"
+  }
+}
