@@ -1,38 +1,28 @@
-# create-svelte
+## sveltekit-giggle: SvelteKit Tech Interview Practice Package
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This package is designed to help developers prepare for SvelteKit tech interviews. It includes code snippets, questions, and problems to solve, covering various aspects of SvelteKit development.
 
-## Creating a project
+### Usage
 
-If you're seeing this, you've probably already done this step. Congrats!
+This package is divided into different sections, each focusing on a specific SvelteKit concept. Each section includes:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+* **Code Snippets:** These snippets illustrate different functionalities of SvelteKit, like routing, data fetching, and component communication.
+* **Questions:** These questions test your understanding of the presented snippets and related SvelteKit concepts.
+* **Problems:** These problems provide practical challenges to apply your SvelteKit knowledge to solve real-world scenarios.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Feel free to explore different sections, answer the questions, and try to solve the problems. 
 
-## Developing
+**Note:** This package is intended for practice and self-assessment. Solutions are not provided, but you can compare your approaches with best practices and online resources.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Here are some additional resources that might be helpful:
 
-```bash
-npm run dev
+* **SvelteKit documentation:** [https://kit.svelte.dev/](https://kit.svelte.dev/)
+* **Svelte official documentation:** [https://svelte.dev/docs](https://svelte.dev/docs)
+* **Svelte community forum:** [https://dev.to/t/svelte](https://dev.to/t/svelte)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
 
-## Building
+### Contributing
 
-To create a production version of your app:
+We welcome contributions to this package. You can add new sections, questions, and problems by creating a pull request. Please ensure your contributions are well-documented and follow the existing format.
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This package is a community-driven effort and aims to provide valuable resources for aspiring SvelteKit developers.
