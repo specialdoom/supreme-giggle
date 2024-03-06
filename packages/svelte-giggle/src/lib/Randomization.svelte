@@ -1,14 +1,23 @@
 <script lang="ts">
     import type { Question as Topic } from "./questions.js";
+    import { randomInt } from "./utils.js";
 
+    /** Specify the topics to be randomized. */
     export let topics: Topic[];
 
+    /** Current displayed topic. */
     let topic: Topic | undefined = undefined;
 
+    /**
+     * Retrieves a random topic from the provided lists `topics`.
+     */
     function getRandomTopic(): Topic {
-        return topics[Math.floor(Math.random() * topics.length)];
+        return topics[randomInt(0, topics.length)];
     }
 
+    /**
+     * Click event handler for the button element.
+     */
     function clickButton() {
         topic = getRandomTopic();
     }
