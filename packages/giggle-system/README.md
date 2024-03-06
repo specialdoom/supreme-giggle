@@ -1,58 +1,27 @@
-# create-svelte
+## giggle-system: Svelte Design System Interview Practice
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This package provides examples, code snippets, questions, and problems to help designers and developers prepare for tech interviews involving Svelte design systems.
 
-Read more about creating a library [in the docs](https://kit.svelte.dev/docs/packaging).
+### Usage
 
-## Creating a project
+This package is structured into sections focusing on various aspects of Svelte design systems:
 
-If you're seeing this, you've probably already done this step. Congrats!
+* **Components:** Explore pre-built components like buttons, forms, and typography with code examples.
+* **Theming:** Learn about theme creation, customization, and application in Svelte design systems.
+* **Accessibility:** Understand how to build accessible components following best practices.
+* **Customization:** Explore techniques for extending and customizing the design system for specific projects.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Each section offers:
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+* **Examples:** Visually demonstrate component usage and design principles.
+* **Code Snippets:** Showcase code related to component implementation, theming, and customization.
+* **Questions:** Test your knowledge of design system concepts and best practices.
+* **Problems:** Provide practical challenges to apply your understanding to real-world scenarios.
 
-## Developing
+**Note:** Solutions are not provided, but you can compare your approaches with industry standards and online resources. 
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Contributing
 
-```bash
-npm run dev
+We welcome contributions to expand this package. You can add new sections, examples, questions, and problems by creating a pull request. Please ensure your contributions are well-documented and align with the existing format.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
-
-## Building
-
-To build your library:
-
-```bash
-npm run package
-```
-
-To create a production version of your showcase app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-
-## Publishing
-
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
-
-```bash
-npm publish
-```
+This package is a collaborative effort aiming to provide valuable resources for those preparing for Svelte design system-related tech interviews.
