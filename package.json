@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky",
-    "dev:svelte": "pnpm --filter @specialdoom/svelte-giggle dev"
+    "dev:svelte": "pnpm --filter @specialdoom/svelte-giggle dev",
+    "dev:sveltekit": "pnpm --filter @specialdoom/sveltekit-giggle dev"
   },
   "keywords": [],
   "author": "",
